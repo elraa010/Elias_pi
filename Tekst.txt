@@ -3,6 +3,7 @@ Logg for 25.09 2024
 
 Har lastet Rasberry pi og logget inn, Jobber med å sette opp Ubuntu også skal jeg starte med veiledning på hvordan laste alle systemene. Ladge en README.MD fil og starta med instruksene. 
 
+Siste jeg har jobbet med er sudo apt install ufw
 
 Dette er hva jeg må installere.
 
