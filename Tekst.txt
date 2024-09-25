@@ -7,7 +7,8 @@ Logg for 25.09 2024
 Har lastet Rasberry pi og logget inn, Jobber med å sette opp Ubuntu også skal jeg starte med veiledning på hvordan laste alle systemene.
 
 
-Dettee
+Dette er hva jeg må installere.
+
 Install Python,
 Install Mariadb,
 Install SSH,
