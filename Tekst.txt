@@ -1,11 +1,18 @@
-Dette burde funke
 
-Install Python
 
-Install Mariadb
 
-Install SSH
 
-Install GIT
+Logg for 25.09 2024
 
-Install Ubuntu
+Har lastet Rasberry pi og logget inn, Jobber med å sette opp Ubuntu også skal jeg starte med veiledning på hvordan laste alle systemene.
+
+
+Dettee
+Install Python,
+Install Mariadb,
+Install SSH,
+Install GIT,
+Install Ubuntu,
+Install Raspberry Pi,
+Brannmur,
+Database
