@@ -1,1 +1,11 @@
 Dette burde funke
+
+Install Python
+
+Install Mariadb
+
+Install SSH
+
+Install GIT
+
+Install Ubuntu
