@@ -36,18 +36,28 @@
 
 ### Skru på SSH
 
-1. Skriv in ``sudo apt install openssh-server`` Dersom det kommer opp [y/n] skriv in ``Yes eller y`` Dette installerer SSH-serveren.
+```bash
+sudo apt install openssh-server
+```
+Dersom det kommer opp [y/n] skriv in ``Yes eller y`` Dette installerer SSH-serveren.
 
-2. Skriv in ``sudo systemctl enable ssh`` Dette gjør at SSH slår på ved oppstart.
-
-3. Skriv in ``sudo systemctl start ssh`` Dette vil starte opp SSH med en gang.
+```bash
+sudo systemctl enable ssh 
+sudo systemctl start ssh
+```
+Dette gjør at SSH slår på ved oppstart og starter opp SSH med en gang.
 
 ### Finne IP addresse
 
-1. Skriv inn ``ip a`` på Inet nr: 2. finner du et adresse som ligner på ``10.x.x.xx`` X= nummeret. Dette vil da være IP adresse til serveren. Du vil trenge IP adresse ditt for å bruke SSH.
+1. Skriv inn ``ip a``.
+
+2. på "Inet" nr: 2. finner du et adresse som ligner på ``10.x.x.xx`` X= IP adresse.
+
+ Du vil trenge IP adresse ditt for å bruke SSH.
 
 
 ### Laste Python, Git, Mariadb og sql
+Dette vil laste ned alt.
 
 ```bash
 sudo apt install python3-pip
@@ -58,5 +68,5 @@ sudo apt install mariadb-server
 
 sudo mysql_secure_installation
 ```
-
+Skriv inn Y/Yes på alle installasjoner dersom det kommer opp "Do you want to contuinue".
 
