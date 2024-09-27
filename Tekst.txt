@@ -8,6 +8,8 @@ Jeg jobber med instrukser til Ubuntu, Sudo apt Upgrade, update, ufw og brannmur.
 
 Ble ferdig ble opsett av basic start av Ubuntu.
 
+Har også sjekket på Angelito sin GIT README og gitt han tilbakemelding.
+
 
 Dette er hva jeg må installere.
 
