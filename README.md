@@ -8,7 +8,7 @@
 
 3.	Dersom den er ferdig med å oppdatere kommer det til å komme opp en melding om å restarte. Klikk ``Restart Now``, Og logg inn på nytt når den har restartet.
 
-4.	Når du er tilbake inn og er i Terminalen skal du da skrive inn ``Sudo apt updrage`` og vent til den er ferdig. Det gjør at du updater og upgrader alle programmer på Rasberry Pi’en.  
+4.	Når du er tilbake inn og er i Terminalen skal du da skrive inn ``Sudo apt upgrade`` og vent til den er ferdig. Det gjør at du updater og upgrader alle programmer på Rasberry Pi’en.  
 
 ## Sette opp SSH og Brannmur på Ubuntu
 
@@ -33,7 +33,7 @@
 ## Finne IP addresse
 
 1. Skriv inn ``ip a`` på Inet nr: 2. finner du et adresse som ligner på ``10.x.x.xx`` X= nummeret. Dette vil da være IP adresse til serveren. Du vil trenge IP adresse ditt for å bruke SSH.
-    
+
 
 
 
