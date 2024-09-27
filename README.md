@@ -1,8 +1,7 @@
 # Installasjon og Oppsett av Raspberry Pi, Ubuntu og Python
 
 
-
-## innholdsfortegnelse
+# innholdsfortegnelse
 
 
 1. [Update og IUpgrade av Ubuntu](#update-og-upgrade-av-ubuntu)
@@ -12,7 +11,7 @@
 5. [Laste Python, Git, Mariadb og sql](#laste-python-git-mariadb-og-sql)
 
 
-### Update og Upgrade av Ubuntu
+## Update og Upgrade av Ubuntu
 1.	Når du er inni ubuntu opne Terminalen via ``CTRL + ALT + T``
 
 2.	Skriv inn ``sudo apt update``  og put inn passored ditt. Vent til den er ferdig.
@@ -21,7 +20,7 @@
 
 4.	Når du er tilbake inn og er i Terminalen skal du da skrive inn ``sudo apt upgrade`` og vent til den er ferdig. Det gjør at du updater og upgrader alle programmer på Rasberry Pi’en.  
 
-### Sette opp SSH og Brannmur på Ubuntu
+## Sette opp SSH og Brannmur på Ubuntu
 
 
 1. Opne Terminalen via ``CTRL + ALT + T``
@@ -34,20 +33,21 @@
 
 5. Sjekk statusen på brannmuren via ``sudo ufw status``
 
-### Skru på SSH
-
+## Skru på SSH
+1. 
 ```bash
 sudo apt install openssh-server
 ```
 Dersom det kommer opp [y/n] skriv in ``Yes eller y`` Dette installerer SSH-serveren.
 
+2. 
 ```bash
 sudo systemctl enable ssh 
 sudo systemctl start ssh
 ```
 Dette gjør at SSH slår på ved oppstart og starter opp SSH med en gang.
 
-### Finne IP addresse
+## Finne IP addresse
 
 1. Skriv inn ``ip a``.
 
@@ -56,9 +56,8 @@ Dette gjør at SSH slår på ved oppstart og starter opp SSH med en gang.
  Du vil trenge IP adresse ditt for å bruke SSH.
 
 
-### Laste Python, Git, Mariadb og sql
-Dette vil laste ned alt.
-
+## Laste Python, Git, Mariadb og sql
+1. Dette vil laste ned alt.
 ```bash
 sudo apt install python3-pip
 
@@ -70,3 +69,4 @@ sudo mysql_secure_installation
 ```
 Skriv inn Y/Yes på alle installasjoner dersom det kommer opp "Do you want to contuinue".
 
+    
