@@ -73,4 +73,3 @@ sudo mysql_secure_installation
 Skriv inn Y/Yes på alle installasjoner dersom det kommer opp "Do you want to contuinue".
 
 For sql skal du skrive inn ``N/No`` på alle.
-
