@@ -1,7 +1,7 @@
 # Installasjon og Oppsett av Raspberry Pi, Ubuntu og Python
 
 
-# innholdsfortegnelse
+## innholdsfortegnelse
 
 
 1. [Update og IUpgrade av Ubuntu](#update-og-upgrade-av-ubuntu)
@@ -11,7 +11,7 @@
 5. [Laste Python, Git, Mariadb og sql](#laste-python-git-mariadb-og-sql)
 
 
-## Update og Upgrade av Ubuntu
+## 1. Update og Upgrade av Ubuntu
 1.	Når du er inni ubuntu opne Terminalen via ``CTRL + ALT + T``
 
 2.	Skriv inn ``sudo apt update``  og put inn passored ditt. Vent til den er ferdig.
@@ -25,13 +25,16 @@
 
 1. Opne Terminalen via ``CTRL + ALT + T``
 
-2. Skriv inn ``sudo apt install ufw``  Skriv inn passordet dersom det kommer opp. også vent til den er ferdig
+ ```bash
+ sudo apt install ufw 
+ sudo ufw enable 
+ sudo ufw allow ssh
+```
+Skiv in passordet dersom det kommer opp. også vent til den er ferdig
 
-3. Skriv in ``sudo ufw enable`` Dette vil aktivere brannmuren ved oppstart.
+Dette vil aktivere brannmuren ved oppstart og tillate SSH tilkoblinger.
 
-4. Skriv in ``sudo ufw allow ssh`` dette tillater SSH tilkoblinger.
-
-5. Sjekk statusen på brannmuren via ``sudo ufw status``
+2. Sjekk statusen på brannmuren via ``sudo ufw status``
 
 ## Skru på SSH
 1. 
@@ -69,4 +72,5 @@ sudo mysql_secure_installation
 ```
 Skriv inn Y/Yes på alle installasjoner dersom det kommer opp "Do you want to contuinue".
 
-    
+For sql skal du skrive inn ``N/No`` på alle.
+
